@@ -48,7 +48,9 @@ header {
 .my-col1-3 {
     width: calc(100% / 3);
 }
-
+.relative {
+    position: relative;
+}
 .red-50 {
     display: inline-block;
     background-color: red;
@@ -69,3 +71,35 @@ header {
     text-align: center;
     vertical-align: text-bottom;
 }    
+.heart {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    height: 20px;
+    width: 27px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+.sale {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+}   
+.brand {
+    font-size: 0.7rem;
+}
+.product-name{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.price {
+    font-size: 0.75rem;
+    color: red;
+    font-weight: bold;
+}.old-price {
+    font-weight: normal;
+    color: black;
+    text-decoration: line-through;
+}
