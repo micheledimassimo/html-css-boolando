@@ -17,6 +17,7 @@ header {
     height: 70px;
 }
 .header-container {
+    width: 1350px;
     padding-top: 20px;
     margin: 0 auto;
     display: flex;
@@ -34,3 +35,37 @@ header {
     color: white;
     font-size: 0.9rem;
 }
+/*MAIN*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.my-col1-3 {
+    width: calc(100% / 3);
+}
+
+.red-50 {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 0.6rem;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.green-sosten {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-size: 0.75rem;
+    width: 75px;
+    height: 15px;
+    text-align: center;
+    vertical-align: text-bottom;
+}    
