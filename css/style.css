@@ -17,7 +17,7 @@ header {
     height: 70px;
 }
 .header-container {
-    width: 1350px;
+    width: 1000px;
     padding-top: 20px;
     margin: 0 auto;
     display: flex;
@@ -46,7 +46,8 @@ header {
     margin-top: 70px;
 }
 .my-col1-3 {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 60px);
+    margin: 20px 10px;
 }
 .relative {
     position: relative;
