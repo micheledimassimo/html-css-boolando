@@ -82,6 +82,9 @@ header {
     background-color: white;
     text-align: center;
     vertical-align: middle;
+} 
+.heart:hover {
+    color: red;
 }
 .sale {
     position: absolute;
@@ -103,4 +106,22 @@ header {
     font-weight: normal;
     color: black;
     text-decoration: line-through;
+}
+.img-hover:hover {
+    
+}
+/*FOOTER*/
+footer {
+    background-color: #1A1A1A;
+    color: white;
+}
+.footer-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > div > p {
+    font-size: 0.7rem
 }
