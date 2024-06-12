@@ -85,6 +85,7 @@ header {
 } 
 .heart:hover {
     color: red;
+    cursor: pointer;
 }
 .sale {
     position: absolute;
@@ -124,4 +125,15 @@ footer {
 
 footer > div > div > p {
     font-size: 0.7rem
+}
+
+.second-img {
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+} 
+
+.second-img:hover {
+    opacity: 1;
+    cursor: pointer;
 }
